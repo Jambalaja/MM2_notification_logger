@@ -1,9 +1,10 @@
 # MM2_notification_logger
 
 This module logs all messages broadcasted by the installed and started MagicMirror2 modules. The logged messages are stored in a .csv file with the format:
+
 TIME_STAMP, SENDER_NAME, NOTIFICATION_NAME, PAYLOAD
 
-Please note that the payload is not parsed (yet). 
+Please note that the payload is not parsed. 
 
 ## Installation
 
