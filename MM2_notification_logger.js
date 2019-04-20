@@ -1,4 +1,4 @@
-Module.register("smartmirror-notification-logger", {
+Module.register("MM2_notification_logger", {
 	defaults:{},
 	start: function() {
 		this.sendSocketNotification('CONFIG', this.config);

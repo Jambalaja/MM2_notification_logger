@@ -33,6 +33,7 @@ def close_log_file():
 if __name__ == "__main__":
 	config = json.loads(sys.argv[1])
 	to_node("open log file " + config['logFilePath'] + " in mode '" + config['writeMode'] + "'")
+	to_node("This working directory path: " + os.getcwd())
 	logFile = open(config['logFilePath'], config['writeMode'])
 	t = threading.Thread(target=check_stdin)
 	t.start()

@@ -42,11 +42,11 @@ module.exports = NodeHelper.create(
 	{
 		const self = this;
 		self.pyshell.send('stop logging');
-		//self.pyshell.childProcess.kill('SIGKILL'); //process ends naturally, no need to kill
+		self.pyshell.childProcess.kill('SIGKILL');
 		self.pyshell.end(function (err) 
 		{
            		if (err)
-			{
+			    {
         			//throw err;
     			};
     			console.log('Clean up notification-logger finished');
