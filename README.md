@@ -1,4 +1,4 @@
-# MM2_notification_logger
+# MMM_notification_logger
 
 This module logs all messages broadcasted by the installed and started MagicMirror2 modules. The logged messages are stored in a .csv file with the format:
 
@@ -13,9 +13,9 @@ Please note that the payload is not parsed.
 
 ```javascript
 {
-	module: "MM2_notification_logger",
+	module: "MMM_notification_logger",
 	config: {
-			logFilePath: "./modules/MM2_notification_logger/notification_log.csv", //working directory for python-shell is ~/MagicMirror
+			logFilePath: "./modules/MMM_notification_logger/notification_log.csv", //working directory for python-shell is ~/MagicMirror
 			writeMode: "a" //a for append; w for (over)write
 		}
 },
