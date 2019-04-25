@@ -13,9 +13,9 @@ Please note that the payload is not parsed.
 
 ```javascript
 {
-	module: "MMM_notification_logger",
+	module: "smartmirror-notification-logger",
 	config: {
-			logFilePath: "./modules/MMM_notification_logger/notification_log.csv", //working directory for python-shell is ~/MagicMirror
+			logFilePath: "./modules/smartmirror-notification-logger/notification_log.csv", //working directory for python-shell is ~/MagicMirror
 			writeMode: "a" //a for append; w for (over)write
 		}
 },
