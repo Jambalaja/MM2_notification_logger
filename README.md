@@ -1,4 +1,4 @@
-# MMM_notification_logger
+# smartmirror-notification-logger
 
 This module logs all messages broadcasted by the installed and started MagicMirror2 modules. The logged messages are stored in a .csv file with the format:
 
