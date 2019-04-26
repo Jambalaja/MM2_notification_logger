@@ -10,7 +10,7 @@ module.exports = NodeHelper.create(
 	{
 		const self = this;		
 		self.pyshell = new PythonShell('modules/' + this.name +
-		'/python-scripts/notification-logger.py', {pythonPath: 'python', args: [JSON.stringify(this.config)]});
+		'/python-scripts/notification-logger.py', {pythonPath: '/usr/bin/python', args: [JSON.stringify(this.config)]});
 		console.log(this.name + " started");
 		self.pyshell.on('message', function (message)
 		{
@@ -40,14 +40,14 @@ module.exports = NodeHelper.create(
 	//call python clean up function
 	stop: function() 
 	{
-		//self.pyshell.send('stop logging');
 		const self = this;
-	    console.log("Stopping module helper: " + self.name);
+	    	console.log("Stopping module helper: " + self.name);
+		//self.pyshell.send("stop logging");
 		self.pyshell.childProcess.kill('SIGKILL');
 		self.pyshell.end(function (err)
 		{
            		if (err)
-			    {
+			{
         			//throw err;
     			};
     			console.log('Clean up notification-logger finished');
