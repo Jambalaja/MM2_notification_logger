@@ -34,6 +34,14 @@ if __name__ == "__main__":
 	config = json.loads(sys.argv[1])
 	to_node("open log file " + config['logFilePath'] + " in mode '" + config['writeMode'] + "'")
 	to_node("This working directory path: " + os.getcwd())
-	logFile = open(config['logFilePath'], config['writeMode'])
-	t = threading.Thread(target=check_stdin)
-	t.start()
+	logFile = open(config['logFilePath'], config['writeMode'], buffering=1)
+	#t = threading.Thread(target=check_stdin)
+	#t.start()
+	global i
+	while True:
+		line = sys.stdin.readline()
+		if "stop logging" in line:
+			close_log_file()
+			break
+		write_log(line)
+		i += 1

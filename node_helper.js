@@ -9,12 +9,12 @@ module.exports = NodeHelper.create(
 	python_start: function () 
 	{
 		const self = this;		
-		self.pyshell = new PythonShell('modules/' + this.name + 
+		self.pyshell = new PythonShell('modules/' + this.name +
 		'/python-scripts/notification-logger.py', {pythonPath: 'python', args: [JSON.stringify(this.config)]});
-		console.log("notification-logger started");
+		console.log(this.name + " started");
 		self.pyshell.on('message', function (message)
 		{
-			console.log("notification-logger: " + message);
+			console.log("[smartmirror-notification-logger] " + message);
 		});
   	},
 
@@ -23,16 +23,16 @@ module.exports = NodeHelper.create(
 		const self = this;
 		if(notification === 'CONFIG') 
 		{
-      			this.config = payload;
+      		self.config = payload;
 			if(!pythonStarted)
 			{
 				pythonStarted = true;
-				this.python_start();
+				self.python_start();
 			}
 		}
 		else
 		{
-			this.pyshell.send(payload);
+			self.pyshell.send(payload);
 			//console.log("Send: " + entryString);
 		}
   	},
@@ -40,10 +40,11 @@ module.exports = NodeHelper.create(
 	//call python clean up function
 	stop: function() 
 	{
+		//self.pyshell.send('stop logging');
 		const self = this;
-		self.pyshell.send('stop logging');
+	    console.log("Stopping module helper: " + self.name);
 		self.pyshell.childProcess.kill('SIGKILL');
-		self.pyshell.end(function (err) 
+		self.pyshell.end(function (err)
 		{
            		if (err)
 			    {
