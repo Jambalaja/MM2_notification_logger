@@ -15,7 +15,7 @@ Please note that the payload is not parsed.
 {
 	module: "smartmirror-notification-logger",
 	config: {
-			logFilePath: "./modules/smartmirror-notification-logger/notification_log.csv", //working directory for python-shell is ~/MagicMirror
+			logFilePath: "./modules/smartmirror-notification-logger/log/", //working directory for Node.js is ./MagicMirror
 			writeMode: "a" //a for append; w for (over)write
 		}
 },
@@ -24,5 +24,4 @@ Please note that the payload is not parsed.
 ## Requirements
 
 1. a valid installation of MM2 on your system
-2. python-shell package for node.js (https://www.npmjs.com/package/python-shell)
-3. python installed on your system
+2. csv-writer installed as package for MM2 https://www.npmjs.com/package/csv-writer
