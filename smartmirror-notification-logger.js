@@ -17,8 +17,13 @@ Module.register("smartmirror-notification-logger", {
 		{
 			senderName = "Core System";
 		}
-		var entryString = Date(Date.now()).toString() + ","  + senderName + "," + notification + "," + payload;
-		this.sendSocketNotification("Log", entryString);
+		var entry = {
+			date: Date.now(),
+			senderName: senderName,
+			notification: notification,
+			payload: JSON.stringify(payload)
+		}
+		this.sendSocketNotification("Log", entry);
 	},
 	socketNotificationReceived: function () {},
 })
