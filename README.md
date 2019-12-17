@@ -13,11 +13,10 @@ The payload is parsed as a JSON string. The logger creates a new log file every 
 
 ```javascript
 {
-	module: "smartmirror-notification-logger",
-	config: {
-			logFilePath: "./modules/smartmirror-notification-logger/log/", //working directory for Node.js is ./MagicMirror
-			writeMode: "a" //a for append; w for (over)write
-		}
+	    module: "smartmirror-notification-logger",
+	    config: {
+		logFilePath: "./modules/smartmirror-notification-logger/log/", //working directory for node.js
+	     }
 },
 ```
 
