@@ -4,7 +4,7 @@ This module logs all messages broadcasted by the installed and started MagicMirr
 
 TIME_STAMP, SENDER_NAME, NOTIFICATION_NAME, PAYLOAD
 
-Please note that the payload is not parsed. 
+The payload is parsed as a JSON string. The logger creates a new log file every 5 minutes to keep log read and write times short.
 
 ## Installation
 
