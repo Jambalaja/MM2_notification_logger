@@ -4,7 +4,7 @@ This module logs all messages broadcasted by the installed and started MagicMirr
 
 TIME_STAMP, SENDER_NAME, NOTIFICATION_NAME, PAYLOAD
 
-Please note that the payload is not parsed. 
+The payload is parsed as a JSON string. The logger creates a new log file every 5 minutes to keep read and write times short.
 
 ## Installation
 
@@ -13,16 +13,14 @@ Please note that the payload is not parsed.
 
 ```javascript
 {
-	module: "smartmirror-notification-logger",
-	config: {
-			logFilePath: "./modules/smartmirror-notification-logger/notification_log.csv", //working directory for python-shell is ~/MagicMirror
-			writeMode: "a" //a for append; w for (over)write
-		}
+	    module: "smartmirror-notification-logger",
+	    config: {
+		logFilePath: "./modules/smartmirror-notification-logger/log/", //working directory for node.js is ./MagicMirror2
+	     }
 },
 ```
 
 ## Requirements
 
 1. a valid installation of MM2 on your system
-2. python-shell package for node.js (https://www.npmjs.com/package/python-shell)
-3. python installed on your system
+2. csv-writer installed as package for MM2 https://www.npmjs.com/package/csv-writer
