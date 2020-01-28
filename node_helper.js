@@ -19,8 +19,11 @@ module.exports = NodeHelper.create(
 		else
 		{
 			var d = new Date(Date.now());
-  			d = d.getDate() + "_" + d.getMonth() + "_" + d.getFullYear() + "_" + d.getHours() + "_"+ Math.ceil(d.getMinutes() / 5) * 5;
-
+			var month   = d.getMonth() == 0 ? '01' : d.getMonth() + 1 
+			var minutes = Math.floor(d.getMinutes() / 5)*5
+			minutes = minutes < 10 ? '0' + minutes : minutes
+			d = d.getDate() + "_" + month + "_" + d.getFullYear() + "_" + d.getHours() + "_" + minutes
+			
 			var csvWriter = createCsvWriter({
 			    path: this.config.logFilePath + d + "_notification_log.csv",
 			    append: true,
