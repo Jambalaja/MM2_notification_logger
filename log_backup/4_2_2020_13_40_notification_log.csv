@@ -1,0 +1,70 @@
+1580820234021,SmartMirror-Decision-Maker,smartmirror-TTS-en,"""Welcome to the smart mirror!"""
+1580820234021,Core System,ALL_MODULES_STARTED,
+1580820234037,Core System,DOM_OBJECTS_CREATED,
+1580820234213,currentweather,CURRENTWEATHER_DATA,"{""data"":{""coord"":{""lon"":8.53,""lat"":52.03},""weather"":[{""id"":802,""main"":""Clouds"",""description"":""scattered clouds"",""icon"":""03d""}],""base"":""stations"",""main"":{""temp"":4.91,""feels_like"":-2.34,""temp_min"":2.78,""temp_max"":6.67,""pressure"":1011,""humidity"":75},""visibility"":10000,""wind"":{""speed"":7.7,""deg"":270},""clouds"":{""all"":40},""dt"":1580819729,""sys"":{""type"":1,""id"":1269,""country"":""DE"",""sunrise"":1580799734,""sunset"":1580833032},""timezone"":3600,""id"":2949186,""name"":""Bielefeld"",""cod"":200}}"
+1580820234390,SmartMirror-Decision-Maker,USER_MODULE_VISIBILITY_CONFIG,"{""ID"":-1,""name"":""nobody"",""language"":""en"",""user_ID"":-1,""clock"":1,""weather"":1,""transportation"":0,""mensa"":0,""calendar"":0,""menu"":0,""newsfeed"":1,""crypto"":0,""stock"":0,""centerdisplay"":0,""speech"":0,""bivital"":0,""soccer"":0,""notification_logger"":0,""legato-logo"":1,""coffeebot"":0,""print_cewe"":1,""Decision_maker"":1,""traffic"":0,""menu-center"":0,""news"":1}"
+1580820234394,SmartMirror-Main-Menu-Center,MENU_ITEMS,"[""camera"",""augmentations"",""applications"",""smarthome"",""preferences""]"
+1580820234394,SmartMirror-Decision-Maker,MAIN_MENU,"""menu"""
+1580820234394,SmartMirror-Decision-Maker,CENTER_DISPLAY,"""HIDEALL"""
+1580820234394,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580820234395,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580820234395,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580820234395,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580820234395,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580820234395,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580820234395,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580820234395,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580820234768,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Camera-Publisher"",""visibility"":false}"
+1580820234768,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SimpleLogo"",""visibility"":false}"
+1580820234882,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""clock"",""visibility"":false}"
+1580820234882,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""currentweather"",""visibility"":false}"
+1580820234882,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""weatherforecast"",""visibility"":false}"
+1580820234882,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Facerecognition"",""visibility"":false}"
+1580820234882,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":false}"
+1580820234882,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-cryptocurrency"",""visibility"":false}"
+1580820234882,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""alert"",""visibility"":false}"
+1580820234882,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""updatenotification"",""visibility"":false}"
+1580820234882,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""calendar"",""visibility"":false}"
+1580820234882,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""newsfeed"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Decision-Maker"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Main-Menu-Center"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-speechrecognition"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Object-Detection"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Gesture-Recognition"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-PublicTransportHafas"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Bivital"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SoccerLiveScore"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Center-Display"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-MaryTTS"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-notification-logger"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Person-Recognition"",""visibility"":false}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-TomTomTraffic"",""visibility"":true}"
+1580820234883,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-News"",""visibility"":false}"
+1580820234954,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""clock"",""visibility"":true}"
+1580820234955,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""weatherforecast"",""visibility"":true}"
+1580820234955,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""currentweather"",""visibility"":true}"
+1580820234955,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""newsfeed"",""visibility"":true}"
+1580820234955,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SimpleLogo"",""visibility"":true}"
+1580820234955,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-TomTomTraffic"",""visibility"":false}"
+1580820234955,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-News"",""visibility"":true}"
+1580820234955,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Decision-Maker"",""visibility"":true}"
+1580820234956,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-facerecognition"",""visibility"":false}"
+1580820234956,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Object-Detection"",""visibility"":false}"
+1580820234956,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Gesture-Recognition"",""visibility"":false}"
+1580820234956,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-camera-image"",""visibility"":false}"
+1580820234956,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Short-Distance"",""visibility"":false}"
+1580820234956,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Person-Recognition"",""visibility"":false}"
+1580820234956,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":false}"
+1580820235148,MMM-PublicTransportHafas,TRANSPORT_HAFAS,"{""direction"":""Dürkopp Tor 6, Bielefeld"",""when"":""2020-02-04T13:57:00.000+01:00""}"
+1580820235149,MMM-News,NEWS_ARTICLE,"{""articleName"":""Aldi und Lidl schwächeln plötzlich: Supermärkte hängen Discounter ab - BILD"",""articleCategory"":""business"",""source"":""Bild""}"
+1580820236262,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,79.95
+1580820236511,calendar,CALENDAR_EVENTS,"[{""title"":""externer Workshop"",""startDate"":""1601848800000"",""endDate"":""1602108000000"",""fullDayEvent"":true,""class"":""PUBLIC"",""location"":false,""geo"":false,""description"":false,""symbol"":""calendar-check-o "",""color"":""#fff""}]"
+1580820236531,weatherforecast,WEATHER_FORECAST,"[{""day"":""Tue"",""icon"":""wi-rain"",""maxTemp"":""5.2"",""minTemp"":""2.2"",""rain"":0.94},{""day"":""Wed"",""icon"":""wi-day-sunny"",""maxTemp"":""4.3"",""minTemp"":""-0.5""},{""day"":""Thu"",""icon"":""wi-day-sunny"",""maxTemp"":""5.5"",""minTemp"":""-0.1""},{""day"":""Fri"",""icon"":""wi-day-sunny"",""maxTemp"":""7.0"",""minTemp"":""1.6""},{""day"":""Sat"",""icon"":""wi-rain"",""maxTemp"":""8.9"",""minTemp"":""1.3"",""rain"":0.44},{""day"":""Sun"",""icon"":""wi-rain"",""maxTemp"":""11.0"",""minTemp"":""4.4"",""rain"":4.57},{""day"":""Mon"",""icon"":""wi-snow"",""maxTemp"":""9.4"",""minTemp"":""2.8"",""rain"":9.12}]"
+1580820237049,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,39.48
+1580820238079,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30.02
+1580820238394,SmartMirror-Object-Detection,DETECTED_OBJECTS,"{""DETECTED_OBJECTS"":[{""TrackID"":2,""name"":""person"",""w_h"":[0.47837,0.36779],""center"":[0.74583,0.81111]},{""TrackID"":1,""name"":""person"",""w_h"":[0.63942,0.35096],""center"":[0.32917,0.81852]},{""TrackID"":3,""name"":""chair"",""w_h"":[0.1875,0.24279],""center"":[0.7875,0.70741]},{""TrackID"":6,""name"":""book"",""w_h"":[0.02644,0.03365],""center"":[0.0875,0.50741]},{""TrackID"":5,""name"":""book"",""w_h"":[0.02644,0.03606],""center"":[0.10625,0.50741]},{""TrackID"":4,""name"":""book"",""w_h"":[0.03125,0.03606],""center"":[0.08333,0.5963]},{""TrackID"":7,""name"":""sofa"",""w_h"":[0.92308,0.35096],""center"":[0.4375,0.81852]}]}"
+1580820238400,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580820238400,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580820238400,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,3
+1580820238400,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580820238400,SmartMirror-Person-Recognition,RECOGNIZED_PERSONS,"{""RECOGNIZED_PERSONS"":{""1"":{""TrackID"":1,""name"":""person"",""w_h"":[0.63942,0.35096],""center"":[0.32917,0.81852]},""2"":{""TrackID"":2,""name"":""person"",""w_h"":[0.47837,0.36779],""center"":[0.74583,0.81111]}}}"

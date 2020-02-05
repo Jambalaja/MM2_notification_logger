@@ -1,0 +1,362 @@
+1580475010947,SmartMirror-Decision-Maker,smartmirror-TTS-en,"""Welcome to the smart mirror!"""
+1580475010947,Core System,ALL_MODULES_STARTED,
+1580475010955,Core System,DOM_OBJECTS_CREATED,
+1580475011095,currentweather,CURRENTWEATHER_DATA,"{""data"":{""coord"":{""lon"":8.53,""lat"":52.03},""weather"":[{""id"":802,""main"":""Clouds"",""description"":""scattered clouds"",""icon"":""03d""}],""base"":""stations"",""main"":{""temp"":11.43,""feels_like"":4.85,""temp_min"":11,""temp_max"":12.22,""pressure"":1009,""humidity"":71},""visibility"":10000,""wind"":{""speed"":8.2,""deg"":230},""clouds"":{""all"":40},""dt"":1580474720,""sys"":{""type"":1,""id"":1304,""country"":""DE"",""sunrise"":1580454512,""sunset"":1580486986},""timezone"":3600,""id"":2949186,""name"":""Bielefeld"",""cod"":200}}"
+1580475011373,SmartMirror-Decision-Maker,USER_MODULE_VISIBILITY_CONFIG,"{""ID"":-1,""name"":""nobody"",""language"":""en"",""user_ID"":-1,""clock"":1,""weather"":1,""transportation"":0,""mensa"":0,""calendar"":0,""menu"":0,""newsfeed"":1,""crypto"":0,""stock"":0,""centerdisplay"":0,""speech"":0,""bivital"":0,""soccer"":0,""notification_logger"":0,""legato-logo"":1,""coffeebot"":0,""print_cewe"":1,""Decision_maker"":1,""traffic"":0,""menu-center"":0,""news"":1}"
+1580475011377,SmartMirror-Main-Menu-Center,MENU_ITEMS,"[""camera"",""augmentations"",""applications"",""smarthome"",""preferences""]"
+1580475011377,SmartMirror-Decision-Maker,MAIN_MENU,"""menu"""
+1580475011377,SmartMirror-Decision-Maker,CENTER_DISPLAY,"""HIDEALL"""
+1580475011377,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475011377,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475011377,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475011377,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580475011378,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475011378,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475011378,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475011378,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580475011606,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Camera-Publisher"",""visibility"":false}"
+1580475011606,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SimpleLogo"",""visibility"":false}"
+1580475011607,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""clock"",""visibility"":false}"
+1580475011607,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""currentweather"",""visibility"":false}"
+1580475011607,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""weatherforecast"",""visibility"":false}"
+1580475011607,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Facerecognition"",""visibility"":false}"
+1580475011607,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":false}"
+1580475011607,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-cryptocurrency"",""visibility"":false}"
+1580475011607,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""alert"",""visibility"":false}"
+1580475011607,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""updatenotification"",""visibility"":false}"
+1580475011607,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""calendar"",""visibility"":false}"
+1580475011607,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""newsfeed"",""visibility"":false}"
+1580475011608,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Decision-Maker"",""visibility"":false}"
+1580475011608,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Main-Menu-Center"",""visibility"":false}"
+1580475011608,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-speechrecognition"",""visibility"":false}"
+1580475011608,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Object-Detection"",""visibility"":false}"
+1580475011608,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Gesture-Recognition"",""visibility"":false}"
+1580475011608,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-PublicTransportHafas"",""visibility"":false}"
+1580475011608,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Bivital"",""visibility"":false}"
+1580475011608,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SoccerLiveScore"",""visibility"":false}"
+1580475011608,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Mensa-Plan"",""visibility"":false}"
+1580475011608,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Center-Display"",""visibility"":false}"
+1580475011609,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-MaryTTS"",""visibility"":false}"
+1580475011609,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-notification-logger"",""visibility"":false}"
+1580475011609,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Person-Recognition"",""visibility"":false}"
+1580475011609,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-TomTomTraffic"",""visibility"":true}"
+1580475011609,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-News"",""visibility"":false}"
+1580475011892,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""clock"",""visibility"":true}"
+1580475011892,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""weatherforecast"",""visibility"":true}"
+1580475011893,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""currentweather"",""visibility"":true}"
+1580475011893,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""newsfeed"",""visibility"":true}"
+1580475011893,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SimpleLogo"",""visibility"":true}"
+1580475011893,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-TomTomTraffic"",""visibility"":false}"
+1580475011893,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-News"",""visibility"":true}"
+1580475011893,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Decision-Maker"",""visibility"":true}"
+1580475011893,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-facerecognition"",""visibility"":false}"
+1580475011894,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Object-Detection"",""visibility"":false}"
+1580475011894,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Gesture-Recognition"",""visibility"":false}"
+1580475011894,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-camera-image"",""visibility"":false}"
+1580475011894,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Short-Distance"",""visibility"":false}"
+1580475011894,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Person-Recognition"",""visibility"":false}"
+1580475011894,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":false}"
+1580475012106,MMM-PublicTransportHafas,TRANSPORT_HAFAS,"{""direction"":""Dürkopp Tor 6, Bielefeld"",""when"":""2020-01-31T14:07:00.000+01:00""}"
+1580475012305,MMM-News,NEWS_ARTICLE,"{""articleName"":""Werder Bremen: Alles klar mit Davie Selke - die Details zum Transfer! | News - deichstube.de"",""articleCategory"":""general"",""source"":""Deichstube.de""}"
+1580475012607,SmartMirror-Mensa-Plan,MENSA_PLAN,"[""2020-01-31"",[{""name"":""Tagesmenü"",""value"":""Seelachs im Backteig mit Tatarensoße""},{""name"":""Vegetarisch"",""value"":""Schupfnudelpfanne  mit Tomaten-Käse-Soße""},{""name"":""Eintopf"",""value"":""Eintopf aus Tomaten, Poree und Kartoffeln""},{""name"":""Mensa vital"",""value"":""Seehechtfilet auf Kürbis-Trauben-Gemüse, dazu Zitronensoße und Reis""},{""name"":""Aktions-Theke"",""value"":""Frisch gebratenes Schweinerückensteak mit Kräuterbutter, dazu Kroketten und Peperonata-Gemüse""},{""name"":""Aktions-Theke"",""value"":""Hähnchen-Döner-Pita mit buntem Salat und Krautsalat, dazu wahlweise Tsatsiki oder Cocktailsoße""},{""name"":""Dessertbuffet"",""value"":""Täglich wechselnde Dessertvariationen., Mascarpone-Quark-Creme mit Heidelbeersoße, Hausgemachte Milchshakes""},{""name"":""Sides"",""value"":""Bratkartoffeln, Wildreismischung, Kaisergemüse, Kohlrabigemüse in Rahm, Beilagensalate, Sauerkirschjoghurt, Mangoquark, Eis""}]]"
+1580475013293,calendar,CALENDAR_EVENTS,"[{""title"":""Mario Porrmann - Antrittsvorlesung Osnabrück"",""startDate"":""1580475600000"",""endDate"":""1580482800000"",""fullDayEvent"":false,""class"":""PUBLIC"",""location"":""Albrechtstraße 29, Gebäude 64 - 49076 Osnabrück"",""geo"":false,""description"":""Momentan 23 Personen\nhttps://doodle.com/poll/pv3xrs7xtqie76qw\n\nAbfahrt gegen 12:15 Uhr am CITEC\nTreffen in der CITEC-Garage - Fahrgemeinschaften bilden - auf Autos aufteilen\n\nParken in Osnabrück:\n\nGroßer Parkplatz Barbarastraße unterhalb Studentenwohnheim Sedanstraße, gegenüber Nelson-Mandela-Platz\n\n\n"",""symbol"":""calendar-check-o "",""color"":""#fff""},{""title"":""externer Workshop"",""startDate"":""1601848800000"",""endDate"":""1602108000000"",""fullDayEvent"":true,""class"":""PUBLIC"",""location"":false,""geo"":false,""description"":false,""symbol"":""calendar-check-o "",""color"":""#fff""}]"
+1580475013423,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,68.23
+1580475013474,weatherforecast,WEATHER_FORECAST,"[{""day"":""Fri"",""icon"":""wi-cloudy-windy"",""maxTemp"":""11.9"",""minTemp"":""11.1""},{""day"":""Sat"",""icon"":""wi-rain"",""maxTemp"":""10.6"",""minTemp"":""6.9"",""rain"":13.32},{""day"":""Sun"",""icon"":""wi-rain"",""maxTemp"":""10.3"",""minTemp"":""6.1"",""rain"":2.82},{""day"":""Mon"",""icon"":""wi-rain"",""maxTemp"":""9.6"",""minTemp"":""6.0"",""rain"":20.64},{""day"":""Tue"",""icon"":""wi-rain"",""maxTemp"":""5.0"",""minTemp"":""2.9"",""rain"":1.94},{""day"":""Wed"",""icon"":""wi-rain"",""maxTemp"":""5.6"",""minTemp"":""1.4"",""rain"":1.06},{""day"":""Thu"",""icon"":""wi-cloudy"",""maxTemp"":""7.4"",""minTemp"":""1.5""}]"
+1580475015808,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475016431,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475016653,SmartMirror-Object-Detection,OBJECT_DET_FPS,3
+1580475016952,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475017432,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475017811,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475017953,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475017988,SmartMirror-Object-Detection,OBJECT_DET_FPS,3
+1580475018433,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475018954,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475019323,SmartMirror-Object-Detection,OBJECT_DET_FPS,3
+1580475019434,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475019815,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475019955,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475020435,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475020658,SmartMirror-Object-Detection,OBJECT_DET_FPS,3
+1580475020956,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475021379,SmartMirror-Decision-Maker,CENTER_DISPLAY,"""STYLE_TRANSFERE"""
+1580475021379,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475021379,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475021379,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475021379,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,10
+1580475021379,SmartMirror-Decision-Maker,SHOW_ALERT,"{""type"":""notification"",""message"":""showing ai art as idle screen!""}"
+1580475021436,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475021820,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475021880,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":true}"
+1580475021958,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475021992,SmartMirror-Object-Detection,OBJECT_DET_FPS,3
+1580475022437,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475048930,SmartMirror-Decision-Maker,smartmirror-TTS-en,"""Welcome to the smart mirror!"""
+1580475048930,Core System,ALL_MODULES_STARTED,
+1580475048937,Core System,DOM_OBJECTS_CREATED,
+1580475049150,currentweather,CURRENTWEATHER_DATA,"{""data"":{""coord"":{""lon"":8.53,""lat"":52.03},""weather"":[{""id"":802,""main"":""Clouds"",""description"":""scattered clouds"",""icon"":""03d""}],""base"":""stations"",""main"":{""temp"":11.43,""feels_like"":4.85,""temp_min"":11,""temp_max"":12.22,""pressure"":1009,""humidity"":71},""visibility"":10000,""wind"":{""speed"":8.2,""deg"":230},""clouds"":{""all"":40},""dt"":1580474720,""sys"":{""type"":1,""id"":1304,""country"":""DE"",""sunrise"":1580454512,""sunset"":1580486986},""timezone"":3600,""id"":2949186,""name"":""Bielefeld"",""cod"":200}}"
+1580475049357,SmartMirror-Decision-Maker,USER_MODULE_VISIBILITY_CONFIG,"{""ID"":-1,""name"":""nobody"",""language"":""en"",""user_ID"":-1,""clock"":1,""weather"":1,""transportation"":0,""mensa"":0,""calendar"":0,""menu"":0,""newsfeed"":1,""crypto"":0,""stock"":0,""centerdisplay"":0,""speech"":0,""bivital"":0,""soccer"":0,""notification_logger"":0,""legato-logo"":1,""coffeebot"":0,""print_cewe"":1,""Decision_maker"":1,""traffic"":0,""menu-center"":0,""news"":1}"
+1580475049361,SmartMirror-Main-Menu-Center,MENU_ITEMS,"[""camera"",""augmentations"",""applications"",""smarthome"",""preferences""]"
+1580475049361,SmartMirror-Decision-Maker,MAIN_MENU,"""menu"""
+1580475049361,SmartMirror-Decision-Maker,CENTER_DISPLAY,"""HIDEALL"""
+1580475049361,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475049361,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475049361,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475049362,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580475049362,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475049362,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475049362,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475049362,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580475049575,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Camera-Publisher"",""visibility"":false}"
+1580475049575,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SimpleLogo"",""visibility"":false}"
+1580475049575,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""clock"",""visibility"":false}"
+1580475049576,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""currentweather"",""visibility"":false}"
+1580475049576,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""weatherforecast"",""visibility"":false}"
+1580475049576,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Facerecognition"",""visibility"":false}"
+1580475049576,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":false}"
+1580475049576,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-cryptocurrency"",""visibility"":false}"
+1580475049576,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""alert"",""visibility"":false}"
+1580475049576,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""updatenotification"",""visibility"":false}"
+1580475049576,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""calendar"",""visibility"":false}"
+1580475049577,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""newsfeed"",""visibility"":false}"
+1580475049577,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Decision-Maker"",""visibility"":false}"
+1580475049577,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Main-Menu-Center"",""visibility"":false}"
+1580475049577,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-speechrecognition"",""visibility"":false}"
+1580475049577,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Object-Detection"",""visibility"":false}"
+1580475049577,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Gesture-Recognition"",""visibility"":false}"
+1580475049577,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-PublicTransportHafas"",""visibility"":false}"
+1580475049577,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Bivital"",""visibility"":false}"
+1580475049577,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SoccerLiveScore"",""visibility"":false}"
+1580475049578,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Mensa-Plan"",""visibility"":false}"
+1580475049578,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Center-Display"",""visibility"":false}"
+1580475049578,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-MaryTTS"",""visibility"":false}"
+1580475049578,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-notification-logger"",""visibility"":false}"
+1580475049578,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Person-Recognition"",""visibility"":false}"
+1580475049578,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-TomTomTraffic"",""visibility"":true}"
+1580475049578,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-News"",""visibility"":false}"
+1580475049859,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""clock"",""visibility"":true}"
+1580475049859,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""weatherforecast"",""visibility"":true}"
+1580475049859,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""currentweather"",""visibility"":true}"
+1580475049860,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""newsfeed"",""visibility"":true}"
+1580475049860,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SimpleLogo"",""visibility"":true}"
+1580475049860,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-TomTomTraffic"",""visibility"":false}"
+1580475049860,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-News"",""visibility"":true}"
+1580475049861,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Decision-Maker"",""visibility"":true}"
+1580475049862,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-facerecognition"",""visibility"":false}"
+1580475049862,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Object-Detection"",""visibility"":false}"
+1580475049862,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Gesture-Recognition"",""visibility"":false}"
+1580475049862,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-camera-image"",""visibility"":false}"
+1580475049862,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Short-Distance"",""visibility"":false}"
+1580475049862,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Person-Recognition"",""visibility"":false}"
+1580475049863,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":false}"
+1580475050150,MMM-PublicTransportHafas,TRANSPORT_HAFAS,"{""direction"":""Dürkopp Tor 6, Bielefeld"",""when"":""2020-01-31T14:07:00.000+01:00""}"
+1580475050356,MMM-News,NEWS_ARTICLE,"{""articleName"":""Werder Bremen: Alles klar mit Davie Selke - die Details zum Transfer! | News - deichstube.de"",""articleCategory"":""general"",""source"":""Deichstube.de""}"
+1580475050619,SmartMirror-Mensa-Plan,MENSA_PLAN,"[""2020-01-31"",[{""name"":""Tagesmenü"",""value"":""Seelachs im Backteig mit Tatarensoße""},{""name"":""Vegetarisch"",""value"":""Schupfnudelpfanne  mit Tomaten-Käse-Soße""},{""name"":""Eintopf"",""value"":""Eintopf aus Tomaten, Poree und Kartoffeln""},{""name"":""Mensa vital"",""value"":""Seehechtfilet auf Kürbis-Trauben-Gemüse, dazu Zitronensoße und Reis""},{""name"":""Aktions-Theke"",""value"":""Frisch gebratenes Schweinerückensteak mit Kräuterbutter, dazu Kroketten und Peperonata-Gemüse""},{""name"":""Aktions-Theke"",""value"":""Hähnchen-Döner-Pita mit buntem Salat und Krautsalat, dazu wahlweise Tsatsiki oder Cocktailsoße""},{""name"":""Dessertbuffet"",""value"":""Täglich wechselnde Dessertvariationen., Mascarpone-Quark-Creme mit Heidelbeersoße, Hausgemachte Milchshakes""},{""name"":""Sides"",""value"":""Bratkartoffeln, Wildreismischung, Kaisergemüse, Kohlrabigemüse in Rahm, Beilagensalate, Sauerkirschjoghurt, Mangoquark, Eis""}]]"
+1580475051267,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,79.71
+1580475051399,calendar,CALENDAR_EVENTS,"[{""title"":""Mario Porrmann - Antrittsvorlesung Osnabrück"",""startDate"":""1580475600000"",""endDate"":""1580482800000"",""fullDayEvent"":false,""class"":""PUBLIC"",""location"":""Albrechtstraße 29, Gebäude 64 - 49076 Osnabrück"",""geo"":false,""description"":""Momentan 23 Personen\nhttps://doodle.com/poll/pv3xrs7xtqie76qw\n\nAbfahrt gegen 12:15 Uhr am CITEC\nTreffen in der CITEC-Garage - Fahrgemeinschaften bilden - auf Autos aufteilen\n\nParken in Osnabrück:\n\nGroßer Parkplatz Barbarastraße unterhalb Studentenwohnheim Sedanstraße, gegenüber Nelson-Mandela-Platz\n\n\n"",""symbol"":""calendar-check-o "",""color"":""#fff""},{""title"":""externer Workshop"",""startDate"":""1601848800000"",""endDate"":""1602108000000"",""fullDayEvent"":true,""class"":""PUBLIC"",""location"":false,""geo"":false,""description"":false,""symbol"":""calendar-check-o "",""color"":""#fff""}]"
+1580475051457,weatherforecast,WEATHER_FORECAST,"[{""day"":""Fri"",""icon"":""wi-cloudy-windy"",""maxTemp"":""11.9"",""minTemp"":""11.1""},{""day"":""Sat"",""icon"":""wi-rain"",""maxTemp"":""10.6"",""minTemp"":""6.9"",""rain"":13.32},{""day"":""Sun"",""icon"":""wi-rain"",""maxTemp"":""10.3"",""minTemp"":""6.1"",""rain"":2.82},{""day"":""Mon"",""icon"":""wi-rain"",""maxTemp"":""9.6"",""minTemp"":""6.0"",""rain"":20.64},{""day"":""Tue"",""icon"":""wi-rain"",""maxTemp"":""5.0"",""minTemp"":""2.9"",""rain"":1.94},{""day"":""Wed"",""icon"":""wi-rain"",""maxTemp"":""5.6"",""minTemp"":""1.4"",""rain"":1.06},{""day"":""Thu"",""icon"":""wi-cloudy"",""maxTemp"":""7.4"",""minTemp"":""1.5""}]"
+1580475052077,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,38.19
+1580475053111,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30.01
+1580475053894,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475184227,SmartMirror-Decision-Maker,smartmirror-TTS-en,"""Welcome to the smart mirror!"""
+1580475184227,Core System,ALL_MODULES_STARTED,
+1580475184235,Core System,DOM_OBJECTS_CREATED,
+1580475184356,currentweather,CURRENTWEATHER_DATA,"{""data"":{""coord"":{""lon"":8.53,""lat"":52.03},""weather"":[{""id"":802,""main"":""Clouds"",""description"":""scattered clouds"",""icon"":""03d""}],""base"":""stations"",""main"":{""temp"":11.43,""feels_like"":4.85,""temp_min"":11,""temp_max"":12.22,""pressure"":1009,""humidity"":71},""visibility"":10000,""wind"":{""speed"":8.2,""deg"":230},""clouds"":{""all"":40},""dt"":1580474720,""sys"":{""type"":1,""id"":1304,""country"":""DE"",""sunrise"":1580454512,""sunset"":1580486986},""timezone"":3600,""id"":2949186,""name"":""Bielefeld"",""cod"":200}}"
+1580475184759,SmartMirror-Decision-Maker,USER_MODULE_VISIBILITY_CONFIG,"{""ID"":-1,""name"":""nobody"",""language"":""en"",""user_ID"":-1,""clock"":1,""weather"":1,""transportation"":0,""mensa"":0,""calendar"":0,""menu"":0,""newsfeed"":1,""crypto"":0,""stock"":0,""centerdisplay"":0,""speech"":0,""bivital"":0,""soccer"":0,""notification_logger"":0,""legato-logo"":1,""coffeebot"":0,""print_cewe"":1,""Decision_maker"":1,""traffic"":0,""menu-center"":0,""news"":1}"
+1580475184788,SmartMirror-Main-Menu-Center,MENU_ITEMS,"[""camera"",""augmentations"",""applications"",""smarthome"",""preferences""]"
+1580475184788,SmartMirror-Decision-Maker,MAIN_MENU,"""menu"""
+1580475184789,SmartMirror-Decision-Maker,CENTER_DISPLAY,"""HIDEALL"""
+1580475184789,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475184789,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475184789,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475184789,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580475184789,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475184789,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475184789,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475184790,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580475185049,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Camera-Publisher"",""visibility"":false}"
+1580475185049,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SimpleLogo"",""visibility"":false}"
+1580475185049,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""clock"",""visibility"":false}"
+1580475185049,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""currentweather"",""visibility"":false}"
+1580475185049,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""weatherforecast"",""visibility"":false}"
+1580475185049,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Facerecognition"",""visibility"":false}"
+1580475185049,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":false}"
+1580475185049,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-cryptocurrency"",""visibility"":false}"
+1580475185049,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""alert"",""visibility"":false}"
+1580475185050,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""updatenotification"",""visibility"":false}"
+1580475185050,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""calendar"",""visibility"":false}"
+1580475185050,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""newsfeed"",""visibility"":false}"
+1580475185050,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Decision-Maker"",""visibility"":false}"
+1580475185209,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Main-Menu-Center"",""visibility"":false}"
+1580475185211,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-speechrecognition"",""visibility"":false}"
+1580475185211,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Object-Detection"",""visibility"":false}"
+1580475185211,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Gesture-Recognition"",""visibility"":false}"
+1580475185211,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-PublicTransportHafas"",""visibility"":false}"
+1580475185211,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Bivital"",""visibility"":false}"
+1580475185212,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SoccerLiveScore"",""visibility"":false}"
+1580475185212,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Mensa-Plan"",""visibility"":false}"
+1580475185212,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Center-Display"",""visibility"":false}"
+1580475185212,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-MaryTTS"",""visibility"":false}"
+1580475185212,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-notification-logger"",""visibility"":false}"
+1580475185212,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Person-Recognition"",""visibility"":false}"
+1580475185213,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-TomTomTraffic"",""visibility"":true}"
+1580475185213,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-News"",""visibility"":false}"
+1580475185589,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""clock"",""visibility"":true}"
+1580475185589,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""weatherforecast"",""visibility"":true}"
+1580475185589,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""currentweather"",""visibility"":true}"
+1580475185589,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""newsfeed"",""visibility"":true}"
+1580475185589,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SimpleLogo"",""visibility"":true}"
+1580475185591,MMM-News,NEWS_ARTICLE,"{""articleName"":""Werder Bremen: Alles klar mit Davie Selke - die Details zum Transfer! | News - deichstube.de"",""articleCategory"":""sports"",""source"":""Deichstube.de""}"
+1580475185592,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-TomTomTraffic"",""visibility"":false}"
+1580475185592,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-News"",""visibility"":true}"
+1580475185592,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Decision-Maker"",""visibility"":true}"
+1580475185592,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-facerecognition"",""visibility"":false}"
+1580475185592,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Object-Detection"",""visibility"":false}"
+1580475185592,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Gesture-Recognition"",""visibility"":false}"
+1580475185593,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-camera-image"",""visibility"":false}"
+1580475185593,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Short-Distance"",""visibility"":false}"
+1580475185593,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Person-Recognition"",""visibility"":false}"
+1580475185593,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":false}"
+1580475185724,MMM-PublicTransportHafas,TRANSPORT_HAFAS,"{""direction"":""Dürkopp Tor 6, Bielefeld"",""when"":""2020-01-31T14:07:00.000+01:00""}"
+1580475186242,SmartMirror-Mensa-Plan,MENSA_PLAN,"[""2020-01-31"",[{""name"":""Tagesmenü"",""value"":""Seelachs im Backteig mit Tatarensoße""},{""name"":""Vegetarisch"",""value"":""Schupfnudelpfanne  mit Tomaten-Käse-Soße""},{""name"":""Eintopf"",""value"":""Eintopf aus Tomaten, Poree und Kartoffeln""},{""name"":""Mensa vital"",""value"":""Seehechtfilet auf Kürbis-Trauben-Gemüse, dazu Zitronensoße und Reis""},{""name"":""Aktions-Theke"",""value"":""Frisch gebratenes Schweinerückensteak mit Kräuterbutter, dazu Kroketten und Peperonata-Gemüse""},{""name"":""Aktions-Theke"",""value"":""Hähnchen-Döner-Pita mit buntem Salat und Krautsalat, dazu wahlweise Tsatsiki oder Cocktailsoße""},{""name"":""Dessertbuffet"",""value"":""Täglich wechselnde Dessertvariationen., Mascarpone-Quark-Creme mit Heidelbeersoße, Hausgemachte Milchshakes""},{""name"":""Sides"",""value"":""Bratkartoffeln, Wildreismischung, Kaisergemüse, Kohlrabigemüse in Rahm, Beilagensalate, Sauerkirschjoghurt, Mangoquark, Eis""}]]"
+1580475186691,calendar,CALENDAR_EVENTS,"[{""title"":""Mario Porrmann - Antrittsvorlesung Osnabrück"",""startDate"":""1580475600000"",""endDate"":""1580482800000"",""fullDayEvent"":false,""class"":""PUBLIC"",""location"":""Albrechtstraße 29, Gebäude 64 - 49076 Osnabrück"",""geo"":false,""description"":""Momentan 23 Personen\nhttps://doodle.com/poll/pv3xrs7xtqie76qw\n\nAbfahrt gegen 12:15 Uhr am CITEC\nTreffen in der CITEC-Garage - Fahrgemeinschaften bilden - auf Autos aufteilen\n\nParken in Osnabrück:\n\nGroßer Parkplatz Barbarastraße unterhalb Studentenwohnheim Sedanstraße, gegenüber Nelson-Mandela-Platz\n\n\n"",""symbol"":""calendar-check-o "",""color"":""#fff""},{""title"":""externer Workshop"",""startDate"":""1601848800000"",""endDate"":""1602108000000"",""fullDayEvent"":true,""class"":""PUBLIC"",""location"":false,""geo"":false,""description"":false,""symbol"":""calendar-check-o "",""color"":""#fff""}]"
+1580475186779,weatherforecast,WEATHER_FORECAST,"[{""day"":""Fri"",""icon"":""wi-cloudy-windy"",""maxTemp"":""11.9"",""minTemp"":""11.1""},{""day"":""Sat"",""icon"":""wi-rain"",""maxTemp"":""10.6"",""minTemp"":""6.9"",""rain"":13.32},{""day"":""Sun"",""icon"":""wi-rain"",""maxTemp"":""10.3"",""minTemp"":""6.1"",""rain"":2.82},{""day"":""Mon"",""icon"":""wi-rain"",""maxTemp"":""9.6"",""minTemp"":""6.0"",""rain"":20.64},{""day"":""Tue"",""icon"":""wi-rain"",""maxTemp"":""5.0"",""minTemp"":""2.9"",""rain"":1.94},{""day"":""Wed"",""icon"":""wi-rain"",""maxTemp"":""5.6"",""minTemp"":""1.4"",""rain"":1.06},{""day"":""Thu"",""icon"":""wi-cloudy"",""maxTemp"":""7.4"",""minTemp"":""1.5""}]"
+1580475187157,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,138.65
+1580475187303,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,214.56
+1580475188263,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,32.26
+1580475188934,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475189298,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,29.98
+1580475189474,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475189896,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475190331,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30
+1580475190475,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475190898,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475190947,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475191364,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30.02
+1580475191475,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475191900,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475192398,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30.01
+1580475192476,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475192901,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475192952,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475193431,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30.01
+1580475193478,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475193902,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475194462,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30.05
+1580475194477,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475194793,SmartMirror-Decision-Maker,CENTER_DISPLAY,"""STYLE_TRANSFERE"""
+1580475194793,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475194793,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475194793,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475194794,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,10
+1580475194795,SmartMirror-Decision-Maker,SHOW_ALERT,"{""type"":""notification"",""message"":""showing ai art as idle screen!""}"
+1580475194902,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475194955,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475195296,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":true}"
+1580475195479,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475195903,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475196481,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475196904,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475221929,SmartMirror-Decision-Maker,smartmirror-TTS-en,"""Welcome to the smart mirror!"""
+1580475221929,Core System,ALL_MODULES_STARTED,
+1580475221937,Core System,DOM_OBJECTS_CREATED,
+1580475222133,currentweather,CURRENTWEATHER_DATA,"{""data"":{""coord"":{""lon"":8.53,""lat"":52.03},""weather"":[{""id"":801,""main"":""Clouds"",""description"":""few clouds"",""icon"":""02d""}],""base"":""stations"",""main"":{""temp"":11.39,""feels_like"":4.45,""temp_min"":11,""temp_max"":12.22,""pressure"":1009,""humidity"":71},""visibility"":10000,""wind"":{""speed"":8.7,""deg"":240},""clouds"":{""all"":20},""dt"":1580475204,""sys"":{""type"":1,""id"":1304,""country"":""DE"",""sunrise"":1580454512,""sunset"":1580486986},""timezone"":3600,""id"":2949186,""name"":""Bielefeld"",""cod"":200}}"
+1580475222322,SmartMirror-Decision-Maker,USER_MODULE_VISIBILITY_CONFIG,"{""ID"":-1,""name"":""nobody"",""language"":""en"",""user_ID"":-1,""clock"":1,""weather"":1,""transportation"":0,""mensa"":0,""calendar"":0,""menu"":0,""newsfeed"":1,""crypto"":0,""stock"":0,""centerdisplay"":0,""speech"":0,""bivital"":0,""soccer"":0,""notification_logger"":0,""legato-logo"":1,""coffeebot"":0,""print_cewe"":1,""Decision_maker"":1,""traffic"":0,""menu-center"":0,""news"":1}"
+1580475222326,SmartMirror-Main-Menu-Center,MENU_ITEMS,"[""camera"",""augmentations"",""applications"",""smarthome"",""preferences""]"
+1580475222326,SmartMirror-Decision-Maker,MAIN_MENU,"""menu"""
+1580475222326,SmartMirror-Decision-Maker,CENTER_DISPLAY,"""HIDEALL"""
+1580475222326,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475222326,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475222326,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475222326,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580475222326,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475222326,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475222326,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475222326,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,0
+1580475222501,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Camera-Publisher"",""visibility"":false}"
+1580475222501,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SimpleLogo"",""visibility"":false}"
+1580475222501,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""clock"",""visibility"":false}"
+1580475222501,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""currentweather"",""visibility"":false}"
+1580475222501,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""weatherforecast"",""visibility"":false}"
+1580475222501,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Facerecognition"",""visibility"":false}"
+1580475222502,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":false}"
+1580475222502,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-cryptocurrency"",""visibility"":false}"
+1580475222502,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""alert"",""visibility"":false}"
+1580475222502,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""updatenotification"",""visibility"":false}"
+1580475222502,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""calendar"",""visibility"":false}"
+1580475222623,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""newsfeed"",""visibility"":false}"
+1580475222623,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Decision-Maker"",""visibility"":false}"
+1580475222623,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Main-Menu-Center"",""visibility"":false}"
+1580475222624,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-speechrecognition"",""visibility"":false}"
+1580475222624,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Object-Detection"",""visibility"":false}"
+1580475222624,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Gesture-Recognition"",""visibility"":false}"
+1580475222624,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-PublicTransportHafas"",""visibility"":false}"
+1580475222624,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Bivital"",""visibility"":false}"
+1580475222624,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SoccerLiveScore"",""visibility"":false}"
+1580475222624,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Mensa-Plan"",""visibility"":false}"
+1580475222624,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Center-Display"",""visibility"":false}"
+1580475222624,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-MaryTTS"",""visibility"":false}"
+1580475222625,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-notification-logger"",""visibility"":false}"
+1580475222625,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Person-Recognition"",""visibility"":false}"
+1580475222625,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-TomTomTraffic"",""visibility"":true}"
+1580475222625,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-News"",""visibility"":false}"
+1580475222869,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""clock"",""visibility"":true}"
+1580475222869,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""weatherforecast"",""visibility"":true}"
+1580475222869,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""currentweather"",""visibility"":true}"
+1580475222869,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""newsfeed"",""visibility"":true}"
+1580475222869,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-SimpleLogo"",""visibility"":true}"
+1580475222869,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-TomTomTraffic"",""visibility"":false}"
+1580475222870,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""MMM-News"",""visibility"":true}"
+1580475222870,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Decision-Maker"",""visibility"":true}"
+1580475222870,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-facerecognition"",""visibility"":false}"
+1580475222870,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Object-Detection"",""visibility"":false}"
+1580475222870,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Gesture-Recognition"",""visibility"":false}"
+1580475222870,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-camera-image"",""visibility"":false}"
+1580475222870,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Short-Distance"",""visibility"":false}"
+1580475222871,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""SmartMirror-Person-Recognition"",""visibility"":false}"
+1580475222871,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":false}"
+1580475223047,MMM-PublicTransportHafas,TRANSPORT_HAFAS,"{""direction"":""Dürkopp Tor 6, Bielefeld"",""when"":""2020-01-31T14:07:00.000+01:00""}"
+1580475223154,MMM-News,NEWS_ARTICLE,"{""articleName"":""Werder Bremen: Alles klar mit Davie Selke - die Details zum Transfer! | News - deichstube.de"",""articleCategory"":""sports"",""source"":""Deichstube.de""}"
+1580475223514,SmartMirror-Mensa-Plan,MENSA_PLAN,"[""2020-01-31"",[{""name"":""Tagesmenü"",""value"":""Seelachs im Backteig mit Tatarensoße""},{""name"":""Vegetarisch"",""value"":""Schupfnudelpfanne  mit Tomaten-Käse-Soße""},{""name"":""Eintopf"",""value"":""Eintopf aus Tomaten, Poree und Kartoffeln""},{""name"":""Mensa vital"",""value"":""Seehechtfilet auf Kürbis-Trauben-Gemüse, dazu Zitronensoße und Reis""},{""name"":""Aktions-Theke"",""value"":""Frisch gebratenes Schweinerückensteak mit Kräuterbutter, dazu Kroketten und Peperonata-Gemüse""},{""name"":""Aktions-Theke"",""value"":""Hähnchen-Döner-Pita mit buntem Salat und Krautsalat, dazu wahlweise Tsatsiki oder Cocktailsoße""},{""name"":""Dessertbuffet"",""value"":""Täglich wechselnde Dessertvariationen., Mascarpone-Quark-Creme mit Heidelbeersoße, Hausgemachte Milchshakes""},{""name"":""Sides"",""value"":""Bratkartoffeln, Wildreismischung, Kaisergemüse, Kohlrabigemüse in Rahm, Beilagensalate, Sauerkirschjoghurt, Mangoquark, Eis""}]]"
+1580475224472,weatherforecast,WEATHER_FORECAST,"[{""day"":""Fri"",""icon"":""wi-cloudy-windy"",""maxTemp"":""11.9"",""minTemp"":""11.1""},{""day"":""Sat"",""icon"":""wi-rain"",""maxTemp"":""10.6"",""minTemp"":""6.9"",""rain"":13.32},{""day"":""Sun"",""icon"":""wi-rain"",""maxTemp"":""10.3"",""minTemp"":""6.1"",""rain"":2.82},{""day"":""Mon"",""icon"":""wi-rain"",""maxTemp"":""9.6"",""minTemp"":""6.0"",""rain"":20.64},{""day"":""Tue"",""icon"":""wi-rain"",""maxTemp"":""5.0"",""minTemp"":""2.9"",""rain"":1.94},{""day"":""Wed"",""icon"":""wi-rain"",""maxTemp"":""5.6"",""minTemp"":""1.4"",""rain"":1.06},{""day"":""Thu"",""icon"":""wi-cloudy"",""maxTemp"":""7.4"",""minTemp"":""1.5""}]"
+1580475224499,calendar,CALENDAR_EVENTS,"[{""title"":""Mario Porrmann - Antrittsvorlesung Osnabrück"",""startDate"":""1580475600000"",""endDate"":""1580482800000"",""fullDayEvent"":false,""class"":""PUBLIC"",""location"":""Albrechtstraße 29, Gebäude 64 - 49076 Osnabrück"",""geo"":false,""description"":""Momentan 23 Personen\nhttps://doodle.com/poll/pv3xrs7xtqie76qw\n\nAbfahrt gegen 12:15 Uhr am CITEC\nTreffen in der CITEC-Garage - Fahrgemeinschaften bilden - auf Autos aufteilen\n\nParken in Osnabrück:\n\nGroßer Parkplatz Barbarastraße unterhalb Studentenwohnheim Sedanstraße, gegenüber Nelson-Mandela-Platz\n\n\n"",""symbol"":""calendar-check-o "",""color"":""#fff""},{""title"":""externer Workshop"",""startDate"":""1601848800000"",""endDate"":""1602108000000"",""fullDayEvent"":true,""class"":""PUBLIC"",""location"":false,""geo"":false,""description"":false,""symbol"":""calendar-check-o "",""color"":""#fff""}]"
+1580475224562,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,194.9
+1580475224954,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,78.88
+1580475225988,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30
+1580475226403,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475227021,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,29.99
+1580475227194,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475227594,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475228057,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,29.99
+1580475228194,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475228407,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475228595,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475229090,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30.01
+1580475229195,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475229596,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475230123,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30.01
+1580475230196,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475230410,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475230597,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475231158,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,29.96
+1580475231198,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475231598,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475232187,SmartMirror-Center-Display,CENTER_DISPLAY_FPS,30.09
+1580475232196,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475232330,SmartMirror-Decision-Maker,CENTER_DISPLAY,"""STYLE_TRANSFERE"""
+1580475232330,SmartMirror-Decision-Maker,smartmirror-object-detectionSetFPS,3
+1580475232331,SmartMirror-Decision-Maker,smartmirror-gesture-recognitionSetFPS,0
+1580475232331,SmartMirror-Decision-Maker,smartmirror-facerecognitionSetFPS,0
+1580475232331,SmartMirror-Decision-Maker,smartmirror-ai-art-mirror_SetFPS,10
+1580475232333,SmartMirror-Decision-Maker,SHOW_ALERT,"{""type"":""notification"",""message"":""showing ai art as idle screen!""}"
+1580475232412,smartmirror-ai-art-mirror,AI_ART_FPS,0
+1580475232597,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475232834,SmartMirror-Decision-Maker,MODULE_VISIBILITY_STATUS,"{""moduleName"":""smartmirror-ai-art-mirror"",""visibility"":true}"
+1580475233198,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475233598,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475234199,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475234600,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475235200,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475235602,SmartMirror-Facerecognition,FACE_DET_FPS,0
+1580475236203,SmartMirror-Gesture-Recognition,GESTURE_DET_FPS,0
+1580475236603,SmartMirror-Facerecognition,FACE_DET_FPS,0
